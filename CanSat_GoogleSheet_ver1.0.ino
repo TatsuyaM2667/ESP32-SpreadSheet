@@ -18,21 +18,21 @@ google spreadsheetの管理権をサービスアカウントに付与し、デ�
 // For SD/SD_MMC mounting helper
 #include <GS_SDHelper.h>
 
-#define WIFI_SSID "Buildth"
-#define WIFI_PASSWORD "Yasu098765567890"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Google Project ID
-#define PROJECT_ID "cansat-project"
+#define PROJECT_ID ""
 
 // Service Account's client email
-#define CLIENT_EMAIL "cansat-project-tatsuya-m@cansat-project.iam.gserviceaccount.com"
+#define CLIENT_EMAIL ""
 
 // Service Account's private key
-const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD8KXJhGipTn7fP\n1GI27nAw9R1T2KLXWWtJ7Nk/FNEfjwwExQ25mVfbaU5lPOurM9/T65B6VlZ7+A3E\nNvEO0SRgk+jp0v3ntZNbizjo9YeZIw7o5N4LW3b+6nww9FOU63UotGVKNcuqoQfH\nWkAPLMbXa4yJiUx4WVPtKrJkL0GtVVy6RSvo0DThQ/DsbTPkPybKIV2ENo9nKadD\nbfwKNkwUQQWEIdrlLvS/PGJDiC+zeuyw2NCLLPYj1/VInYXTmeVgyizv3BMyvySC\n6asyBw1F9oEWXN4r7SZuTnvxxui5bdXppva9lLnCBaKwOzFaL6320EYfXOrRFK1j\n0FqX9dvZAgMBAAECggEAX3mZ8yYjDJKW2DwEC+Rv2jmUpyCJV5xlwRHKl9Xb8GUL\nGes6bSGgYFUY97//Q01a3DR++bMi/8FGBRsAXqnVajPWpmHa/RaE+s5V9+6vLs5V\nYNz3Lbmt7or+BtMbqnEUZRsYluaTfMGH3nVPd+9uQjZYeeLgb1jzLANUlBZIecXt\n9YxFXDrk6U5OHKZEzdbGMccJLCI74ZNNDok/ac/EwQQ8lfTJcPXTV2Z+vUnmMPcx\nJ0J6rFEwb7rVnPDS3rBxK8+CE1F1wt/3DMqN62ao0KGDdWDFjtZuTxHwzCzxdbjD\n8Ki48coWyctksc6BQisPgbB325Yu7BNXJU6LyIgpWQKBgQD+QLA3YkJQ78JcKTRS\nG6wcqpFJVuH62w+i+vt+uL4JEiFNCW+clzK5/YjfYdMhc5axiTH/z2TTdqaDH/9N\n0jruE3hm0t4yPwiY1r4vw6kA9ZFNdEPK13nW4TxJpSJSjt317KqGBT1wEDUHdZ4n\n7IEknvTHJVistk1Nyv3y8yEF/wKBgQD95RSAj2H9u7O5/wjqKNrNdH+P7MDtO2mS\nsnrOK4h+lvwHW/Vz9FHQcKzTFhwa07ys5x0g7YKNLWBFKMdSm2L4aePMZd/DZr9r\nNU3kOqyo2OHzdCpWCsStcE4t8cvV1ZyMI7qfnWIILzPuWVhQ9ThUmKBS4dqzu8zO\n3ef0pGYOJwKBgHKq0A6aZRhFmZ2hA7TIQC5Jiu7NnWtaosm5cfVr8mD66UPqLokr\n87fILZO5ddQPYnY9Tux1J57rUxuuMaFyYBuBcnrFPWrh3Mm5h9rY3n7NQbPx7KUt\n2whbWqpILJuZTWedTibVdCj3VkM/+407796JRhIOuNhj+6dLFo8csdcXAoGBAPf0\ntaUoYsbufYP0crxc0fM9ByeETJZjI6PE8vJOyar3wYNeZ8SqowwyPlaYjTIV/3nM\n7EGwM4O1AQQJ4z/lyS5aG8MO6w1mVyNYl42BUAZGacTdeks1kQbhWzi7oBph19V1\nP1mK1qavksQANaQ7GJxlwo2vTWuiyU5uoY3m0FSZAoGBALk27nyrhVPcpzMI4sDK\nL16Q7uKdfF3Tia3QnY3cQ5U3LRr+idGDG8Umqc6StaLwH0V5FbWiIFENe1IQUTYH\nnaMU/eZT751TUk1SYUSl5111rh/iwzvV8/HMfRwAUabzXsnBSODXKnkaTFaO2E9G\ncBR9hexye5OSbmshuYLNTswg\n-----END PRIVATE KEY-----\n";
+const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\\n-----END PRIVATE KEY-----\n";
 
 
 // The ID of the spreadsheet where you'll publish the data
-const char spreadsheetId[] = "1NZj-mIqYaTrVVLJTPCAyMgL6j7_cbMbtcYt9VnHwm7k";
+const char spreadsheetId[] = "";
 
 // Timer variables
 unsigned long lastTime = 0;
